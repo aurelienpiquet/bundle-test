@@ -1,0 +1,30 @@
+{
+  "manifests": {
+    "apb/hello-world-bundle": {
+      "manifest": {
+        "bundles": {
+          "APB\\HelloWorldBundle\\ApbHelloWorldBundle": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        },
+        "env": {
+          "APB_HELLO_WORLD": "Hello world is awesome'"
+        }
+      },
+      "files": {
+        "config/packages/acme_private.yaml": {
+          "contents": [
+            "apb-hello-world:",
+            "    encode: true",
+            ""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "c82bca82650b2d76b43021b9b8479eb0b343c56d"
+    }
+  }
+}
