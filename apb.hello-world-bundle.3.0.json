@@ -15,7 +15,7 @@
         }
       },
       "files": {
-        "config/packages/acme_private.yaml": {
+        "config/packages/apb-hello-world.yaml": {
           "contents": [
             "apb-hello-world:",
             "    encode: true",
