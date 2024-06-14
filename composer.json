@@ -9,7 +9,7 @@
   },
   "autoload": {
     "psr-4": {
-      "APB\\HelloWorldBundle\\": "src/"
+      "APB\\HelloWorldBundle\\": "HelloWorldBundle/src/"
     }
   },
   "autoload-dev": {

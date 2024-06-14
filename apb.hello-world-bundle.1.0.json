@@ -17,8 +17,8 @@
       "files": {
         "config/packages/apb-hello-world.yaml": {
           "contents": [
-            "apb-hello-world:",
-            "    encode: true",
+            "apb-hello-world.routes:",
+            "    resource: '@ApbHelloWorldBundle/config/routes.yaml'",
             ""
           ],
           "executable": false
