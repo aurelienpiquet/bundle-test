@@ -5,5 +5,4 @@ services:
     autowire: true
     autoconfigure: true
 
-HelloWorldBundle\Controller\HelloWorldController: ~
-
+  HelloWorldBundle\Controller\HelloWorldController: ~
