@@ -1,6 +1,6 @@
 <?php
 
-namespace APB\HelloWorldBundle\DependencyInjection;
+namespace Apb\HelloWorldBundle\DependencyInjection;
 
 use Exception;
 use Symfony\Component\Config\FileLocator;

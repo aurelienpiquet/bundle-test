@@ -3,7 +3,7 @@
     "apb/hello-world-bundle": {
       "manifest": {
         "bundles": {
-          "APB\\HelloWorldBundle\\ApbHelloWorldBundle": [
+          "Apb\\HelloWorldBundle\\ApbHelloWorldBundle": [
             "all"
           ]
         },
@@ -15,7 +15,7 @@
         }
       },
       "files": {
-        "config/packages/apb-hello-world.yaml": {
+        "config/routes/apb-hello-world.yaml": {
           "contents": [
             "apb_hello_world_bundle.routes:",
             "    resource: '@ApbHelloWorldBundle/config/routes.yaml'",

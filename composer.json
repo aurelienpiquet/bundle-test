@@ -9,12 +9,12 @@
   },
   "autoload": {
     "psr-4": {
-      "APB\\HelloWorldBundle\\": "src/"
+      "Apb\\HelloWorldBundle\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "APB\\HelloWorldBundle\\Tests": "tests/"
+      "Apb\\HelloWorldBundle\\Tests": "tests/"
     }
   },
   "author": [

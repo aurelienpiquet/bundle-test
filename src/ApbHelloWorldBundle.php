@@ -1,12 +1,12 @@
 <?php
 
-namespace APB\HelloWorldBundle;
+namespace Apb\HelloWorldBundle;
 
-use APB\HelloWorldBundle\DependencyInjection\ApbHelloWorldExtension;
+use Apb\HelloWorldBundle\DependencyInjection\ApbHelloWorldExtension;
 use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 
-class APBHelloWorldBundle extends AbstractBundle
+class ApbHelloWorldBundle extends AbstractBundle
 {
     public function getPath(): string
     {
