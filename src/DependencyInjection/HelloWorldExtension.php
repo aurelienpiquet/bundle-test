@@ -1,6 +1,6 @@
 <?php
 
-namespace Apb\HelloWorldBundle\DependencyInjection;
+namespace HelloWorldBundle\DependencyInjection;
 
 use Exception;
 use Symfony\Component\Config\FileLocator;
@@ -8,7 +8,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class ApbHelloWorldExtension extends Extension
+class HelloWorldExtension extends Extension
 {
     /**
      * @throws Exception
