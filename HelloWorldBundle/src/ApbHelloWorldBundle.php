@@ -6,7 +6,7 @@ use APB\HelloWorldBundle\DependencyInjection\ApbHelloWorldExtension;
 use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 
-class APBHelloWorldBundle extends AbstractBundle
+class ApbHelloWorldBundle extends AbstractBundle
 {
     public function getPath(): string
     {
