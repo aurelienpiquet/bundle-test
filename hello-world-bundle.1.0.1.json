@@ -3,7 +3,7 @@
     "apb/hello-world-bundle": {
       "manifest": {
         "bundles": {
-          "HelloWorldBundle\\ApbHelloWorldBundle": [
+          "HelloWorldBundle\\HelloWorldBundle": [
             "all"
           ]
         },
