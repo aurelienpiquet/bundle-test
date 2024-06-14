@@ -11,7 +11,7 @@
           "config/": "%CONFIG_DIR%"
         },
         "env": {
-          "APB_HELLO_WORLD": "Hello world is awesome'"
+          "APB_HELLO_WORLD": "Hello world is awesomee'"
         }
       },
       "files": {
