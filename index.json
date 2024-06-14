@@ -9,6 +9,6 @@
   "_links": {
     "repository": "github.com/aurelienpiquet/bundle-test",
     "origin_template": "{package}:{version}@github.com/aurelienpiquet/bundle-test:main",
-    "recipe_template": "https://api.github.com/repos/aurelienpiquet/bundle-test/main/contents/{package_dotted}.{version}.json"
+    "recipe_template": "https://api.github.com/repos/aurelienpiquet/bundle-test/contents/{package_dotted}.{version}.json"
   }
 }
