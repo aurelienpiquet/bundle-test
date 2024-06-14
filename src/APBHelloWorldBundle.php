@@ -8,9 +8,6 @@ use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 
 class APBHelloWorldBundle extends AbstractBundle
 {
-    // https://github.com/symfony/recipes
-    // pour instancier les fichiers de configs, il faut créer sur recipes
-
     public function getPath(): string
     {
         return dirname(__DIR__);
