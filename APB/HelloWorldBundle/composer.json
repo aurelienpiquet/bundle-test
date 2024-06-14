@@ -1,0 +1,27 @@
+{
+  "name": "apb/hello-world-bundle",
+  "version": "0.1.0",
+  "type" : "symfony-bundle",
+  "description": "This bundle render hello world in a template",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "APB\\HelloWorldBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "APB\\HelloWorldBundle\\Tests": "tests/"
+    }
+  },
+  "author": [
+    {
+      "name": "Aurelien Piquet",
+      "email": "apiquet@feelity.fr",
+      "role": "Dev backend"
+    }
+  ]
+}
